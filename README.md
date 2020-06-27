@@ -10,4 +10,4 @@ Change line 28 and 29 with oldCategorie and newCategorie
 
 Did it!
 
-P.D.: I tried with prestashop webservice but server load increase more than using access-database and is much slower. With this script take about 0.5-0.8 secs by products. 
+P.D.: I tried with prestashop webservice but server load increase more than using access-database and is much slower. With this script take about 0.5-0.8 secs by product. 
