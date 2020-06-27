@@ -1,4 +1,4 @@
-# Prestashop-move-products-from-category
+# Prestashop-move-products-between-categories
 This script allow to move all products from categorie (default and non-default) to another categorie removing only from last one.
 I've made synchronous mode because is safest for universal purposes, you can make your own thread-semaphore function if your tables are locked while some insert is made.
 
