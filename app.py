@@ -98,7 +98,7 @@ try:
             print("Product moved! - " + str(idorder['id_product']))
             print("\n")
             print(
-                "FINISHED! - Moved {0} products in {1} seconds".format(len(results), (datetime.datetime.now() - fromTime)))
+                "FINISHED DEFAULT CATEGORY, LOADING NON DEFAULT PRODUCTS CATEGORY! - Moved {0} products in {1} seconds".format(len(results), (datetime.datetime.now() - fromTime)))
             print(
                 "{0} seconds / product".format((datetime.datetime.now() - fromTime) / len(results)))
 
