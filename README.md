@@ -1,6 +1,6 @@
-# pip install -r requeriments.txt
-# Fill lines 20-20 with database access
-# Change line 28 and 29 with oldCategorie and newCategorie
+- pip install -r requeriments.txt
+- Fill lines 20-20 with database access
+- Change line 28 and 29 with oldCategorie and newCategorie
 
 # Prestashop-move-products-between-categories
 This script allow to move all products from categorie (default and non-default) to another categorie removing only from last one.
