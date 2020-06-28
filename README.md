@@ -8,4 +8,4 @@ I've made synchronous mode because is safest for universal purposes, you can mak
 
 Tested on Prestashop 1.7.6.5
 
-Prestashop webservice is much slower managing this kind of tasks. With this script take about 0.5-0.8 secs by product. 
+Prestashop webservice is much slower managing this kind of tasks. With this script take about 0.5-0.8 secs per product. 
