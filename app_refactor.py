@@ -67,8 +67,8 @@ if __name__ == "__main__":
                 sendQuery("DELETE FROM ps_category_product WHERE id_product={0} AND id_category={1}".format(idorder['id_product'],
                                                                                                             oldCategorie), cnx)
                 # Check if exist product in ps_category_product
-                result = sendQuery("SELECT id_product FROM `ps_category_product` WHERE id_category = {0} ORDER BY position DESC LIMIT 1".format(
-                    newCategorie), cnx, 'oneResult')[0]
+                result = sendQuery("SELECT id_product FROM `ps_category_product` WHERE id_category = {0} and id_product={1}".format(
+                    newCategorie,idorder['id_product']), cnx, 'oneResult')[0]
                 print(result)
                 if result == None:
                     # Get last position in in ps_category_product on new categorie
